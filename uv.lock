@@ -1,0 +1,22 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "private-torarvid-package-1"
+version = "0.0.2"
+source = { registry = "https://europe-north1-python.pkg.dev/testproject-437513/torarvid-python/simple/" }
+sdist = { url = "https://europe-north1-python.pkg.dev/testproject-437513/torarvid-python/private-torarvid-package-1/private_torarvid_package_1-0.0.2.tar.gz", hash = "sha256:981225544f2519825d3389142c603229db671f33292f4eb8b420b26382a43f10" }
+wheels = [
+    { url = "https://europe-north1-python.pkg.dev/testproject-437513/torarvid-python/private-torarvid-package-1/private_torarvid_package_1-0.0.2-py3-none-any.whl", hash = "sha256:fdc21c4784d7931a78095494000be5fd707204a2bc10c1c4a1b941041bad73d1" },
+]
+
+[[package]]
+name = "renovate-test"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "private-torarvid-package-1" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "private-torarvid-package-1", specifier = ">=0.0.2" }]
