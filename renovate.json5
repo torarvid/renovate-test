@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchDatasources": ["pypi"],
-      "registryUrls": ["https://europe-north1-python.pkg.dev/europe-north1/python/simple/"],
+	  "registryUrls": ["europe-north1-python.pkg.dev/testproject-437513/torarvid-python/simple/"],
     }
   ],
   hostRules: [
