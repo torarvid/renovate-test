@@ -3,7 +3,7 @@
   hostRules: [
     {
       description: "Authenticate to Artifact Registry Python",
-	  matchHost: "europe-north1-python.pkg.dev",
+	  matchHost: "https://europe-north1-python.pkg.dev",
       username: "_json_key_base64",
       password: "{{ secrets.ARTIFACT_REGISTRY_JSON_KEY }}",
     },
