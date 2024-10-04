@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchDatasources": ["pypi"],
-      "registryUrls": ["https://europe-north1-python.pkg.dev/europe-north1/python/simple"],
+      "registryUrls": ["https://europe-north1-python.pkg.dev/europe-north1/python/simple/"],
     }
   ],
   hostRules: [
