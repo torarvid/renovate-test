@@ -7,3 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "private-torarvid-package-1>=0.0.2",
 ]
+
+[tool.uv]
+package = true
