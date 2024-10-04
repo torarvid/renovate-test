@@ -1,5 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": ["pypi"],
+      "registryUrls": ["https://europe-north1-python.pkg.dev/europe-north1/python/simple"],
+    }
+  ],
   hostRules: [
     {
       description: "Authenticate to Artifact Registry Python",
@@ -7,11 +13,5 @@
       username: "_json_key_base64",
       password: "{{ secrets.ARTIFACT_REGISTRY_JSON_KEY }}",
     },
-  ],
-  "packageRules": [
-    {
-      "matchDatasources": ["pypi"],
-      "registryUrls": ["https://europe-north1-python.pkg.dev/europe-north1/python/simple"],
-    }
   ],
 }
