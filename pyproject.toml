@@ -11,5 +11,3 @@ dependencies = [
 [tool.uv]
 package = true
 
-[tool.uv.sources]
-httpx = { url = "https://europe-north1-python.pkg.dev/testproject-437513/torarvid-python/private-torarvid-package-1/private_torarvid_package_1-0.0.2-py3-none-any.whl" }
