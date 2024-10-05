@@ -15,4 +15,5 @@
       password: "{{ secrets.ARTIFACT_REGISTRY_JSON_KEY }}",
     },
   ],
+  rangeStrategy: "bump",
 }
