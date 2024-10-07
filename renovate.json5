@@ -16,4 +16,5 @@
     },
   ],
   rangeStrategy: "bump",
+  prHourlyLimit: 0,
 }
