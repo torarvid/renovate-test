@@ -3,11 +3,11 @@ requires-python = ">=3.12"
 
 [[package]]
 name = "private-torarvid-package-1"
-version = "0.0.2"
+version = "0.0.3"
 source = { registry = "https://europe-north1-python.pkg.dev/testproject-437513/torarvid-python/simple/" }
-sdist = { url = "https://europe-north1-python.pkg.dev/testproject-437513/torarvid-python/private-torarvid-package-1/private_torarvid_package_1-0.0.2.tar.gz", hash = "sha256:981225544f2519825d3389142c603229db671f33292f4eb8b420b26382a43f10" }
+sdist = { url = "https://europe-north1-python.pkg.dev/testproject-437513/torarvid-python/private-torarvid-package-1/private_torarvid_package_1-0.0.3.tar.gz", hash = "sha256:0c5f4e87157cf5b2f33718be6000265869d95d4a33e30338ea4db92909bc1f05" }
 wheels = [
-    { url = "https://europe-north1-python.pkg.dev/testproject-437513/torarvid-python/private-torarvid-package-1/private_torarvid_package_1-0.0.2-py3-none-any.whl", hash = "sha256:fdc21c4784d7931a78095494000be5fd707204a2bc10c1c4a1b941041bad73d1" },
+    { url = "https://europe-north1-python.pkg.dev/testproject-437513/torarvid-python/private-torarvid-package-1/private_torarvid_package_1-0.0.3-py3-none-any.whl", hash = "sha256:d09e307fc3d615a95776d4104c30065d1610d86a73e69fc66a7a6b3da97b0075" },
 ]
 
 [[package]]
@@ -19,4 +19,4 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "private-torarvid-package-1", specifier = ">=0.0.2" }]
+requires-dist = [{ name = "private-torarvid-package-1", specifier = ">=0.0.3" }]
