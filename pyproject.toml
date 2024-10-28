@@ -4,10 +4,19 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "private-torarvid-package-1>=0.0.2",
+
+[dependency-groups]
+dev = [
+    "private-torarvid-package-1>=0.0.2,<0.0.3",
 ]
 
 [tool.uv]
 package = true
 
+[tool.uv.sources]
+private-torarvid-package-1 = { index = "priv" }
+
+[[tool.uv.index]]
+name = "priv"
+url = "https://oauth2accesstoken@europe-north1-python.pkg.dev/testproject-437513/torarvid-python/simple"
+explicit = true
