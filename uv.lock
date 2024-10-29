@@ -14,13 +14,9 @@ wheels = [
 name = "renovate-test"
 version = "0.1.0"
 source = { editable = "." }
-
-[package.dependency-groups]
-dev = [
+dependencies = [
     { name = "private-torarvid-package-1" },
 ]
 
 [package.metadata]
-
-[package.metadata.dependency-groups]
-dev = [{ name = "private-torarvid-package-1", specifier = ">=0.0.2,<0.0.3", index = "https://europe-north1-python.pkg.dev/testproject-437513/torarvid-python/simple" }]
+requires-dist = [{ name = "private-torarvid-package-1", specifier = ">=0.0.2,<0.0.3", index = "https://europe-north1-python.pkg.dev/testproject-437513/torarvid-python/simple" }]
